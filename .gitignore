@@ -68,3 +68,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Allow WebGL output
+!Build/
+!Build/WebGL/
+!Build/WebGL/**
+
+# Keep necessary WebGL files
+!*.js
+!*.data
+!*.wasm
+!*.html
